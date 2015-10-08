@@ -1,0 +1,25 @@
+{
+  "name": "templer",
+  "version": "0.0.0",
+  "description": "Insanely simple JavaScript string templating system",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "for f in tests/*.js; do echo \"$f\"; node \"$f\" || exit 1; done; echo passed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bahamas10/node-templer.git"
+  },
+  "keywords": [
+    "template"
+  ],
+  "author": "Dave Eddy <dave@daveeddy.com> (http://www.daveeddy.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahamas10/node-templer/issues"
+  },
+  "homepage": "https://github.com/bahamas10/node-templer#readme"
+}
